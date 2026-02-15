@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 Overview
+##  Overview
 
 This repository provides **ready-to-use incident response playbooks** for security teams dealing with Business Email Compromise attacks. It includes:
 
@@ -19,24 +19,24 @@ This repository provides **ready-to-use incident response playbooks** for securi
 
 ---
 
-## 🎯 What's Included
+##  What's Included
 
-### 1️⃣ Individual Email Compromise (IEC) Playbook
+### 1️ Individual Email Compromise (IEC) Playbook
 **Location:** `bec-individual-email-compromise-playbook/`
 
 Handles incidents where a **single user's email account** is compromised.
 
 **Components:**
-- 📖 `playbook.md` — Full step-by-step IEC playbook
-- 📓 `notebooks/` — Interactive Jupyter notebook for guided incident response
-- 📝 `templates/` — Markdown templates for:
+-  `playbook.md` — Full step-by-step IEC playbook
+-  `notebooks/` — Interactive Jupyter notebook for guided incident response
+-  `templates/` — Markdown templates for:
   - User interviews
   - Incident reports
   - Containment checklists
-- 🔍 `queries/` — Ready-to-use queries for:
+-  `queries/` — Ready-to-use queries for:
   - Microsoft 365 (Exchange Online, Azure AD)
   - Google Workspace
-- 📂 `outputs/` — Generated incident artifacts and reports
+-  `outputs/` — Generated incident artifacts and reports
 
 **Use Cases:**
 - Compromised employee email accounts
@@ -46,19 +46,19 @@ Handles incidents where a **single user's email account** is compromised.
 
 ---
 
-### 2️⃣ Supply Chain / TPRM BEC Playbook
+### 2️ Supply Chain / TPRM BEC Playbook
 **Location:** `bec-tprm/`
 
 Handles incidents involving **third-party vendor or supplier compromise** (Third-Party Risk Management).
 
 **Components:**
-- 📖 `playbooks/BEC_SupplyChain_TPRM_Playbook.md` — Full TPRM playbook
-- 📓 `BEC_SupplyChain_TPRM_Playbook.ipynb` — Interactive investigation notebook
-- 📝 `playbooks/templates/BEC_TPRM_Templates.md` — Scripts and checklists for:
+- `playbooks/BEC_SupplyChain_TPRM_Playbook.md` — Full TPRM playbook
+- `BEC_SupplyChain_TPRM_Playbook.ipynb` — Interactive investigation notebook
+- `playbooks/templates/BEC_TPRM_Templates.md` — Scripts and checklists for:
   - Vendor communication
   - Finance/AP holds
   - Legal coordination
-- 🎫 `.github/ISSUE_TEMPLATE/bec-supply-chain-tprm.yml` — GitHub issue template for incident tracking
+-  `.github/ISSUE_TEMPLATE/bec-supply-chain-tprm.yml` — GitHub issue template for incident tracking
 
 **Use Cases:**
 - Vendor email account compromise
@@ -68,7 +68,7 @@ Handles incidents involving **third-party vendor or supplier compromise** (Third
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - **Python 3.8+**
@@ -95,7 +95,7 @@ Handles incidents involving **third-party vendor or supplier compromise** (Third
 
 ---
 
-## 📚 How to Use
+##  How to Use
 
 ### For Individual Email Compromise:
 
@@ -120,7 +120,7 @@ Handles incidents involving **third-party vendor or supplier compromise** (Third
 
 ---
 
-## 🏢 Integration with Your Security Workflow
+##  Integration with Your Security Workflow
 
 ### Option 1: Standalone Use
 - Clone this repo and run playbooks directly
@@ -143,7 +143,7 @@ cp -r bec-tprm /path/to/your/ir-repo/playbooks/
 
 ---
 
-## 📊 Sample Queries Included
+##  Sample Queries Included
 
 ### Microsoft 365
 - Mailbox audit log extraction
@@ -159,9 +159,9 @@ cp -r bec-tprm /path/to/your/ir-repo/playbooks/
 
 ---
 
-## 🔐 Security & Privacy
+##  Security & Privacy
 
-⚠️ **Important Notes:**
+ **Important Notes:**
 
 - **Outputs folder:** Contains generated incident data. Consider adding `outputs/` to `.gitignore` if you don't want to commit sensitive incident files.
 - **Credentials:** Never commit credentials, API keys, or PII to this repository.
@@ -176,7 +176,7 @@ echo "*_incident_*.md" >> .gitignore
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please:
 
@@ -188,13 +188,13 @@ Contributions are welcome! Please:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🆘 Support
+##  Support
 
 For questions or issues:
 - Open a [GitHub Issue](https://github.com/autobot786/BEC-and-BUC/issues)
@@ -202,11 +202,11 @@ For questions or issues:
 
 ---
 
-## 🌟 Acknowledgments
+##  Acknowledgments
 
 This playbook collection is designed for security professionals responding to real-world BEC incidents. It combines industry best practices with practical, executable workflows.
 
-**Stay vigilant. Respond rapidly. Protect your organization.** 🛡️
+**Stay vigilant. Respond rapidly. Protect your organization.** 
 
 ---
 
