@@ -11,11 +11,11 @@
 
 This repository provides **ready-to-use incident response playbooks** for security teams dealing with Business Email Compromise attacks. It includes:
 
-✅ **Step-by-step playbooks** for different BEC scenarios  
-✅ **Interactive Jupyter notebooks** for guided incident investigations  
-✅ **Templates** for interviews, reports, and containment checklists  
-✅ **Pre-built queries** for Microsoft 365 and Google Workspace  
-✅ **Automated report generation** from incident data  
+ **Step-by-step playbooks** for different BEC scenarios  
+ **Interactive Jupyter notebooks** for guided incident investigations  
+ **Templates** for interviews, reports, and containment checklists  
+ **Pre-built queries** for Microsoft 365 and Google Workspace  
+ **Automated report generation** from incident data  
 
 ---
 
