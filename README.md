@@ -22,7 +22,7 @@ This repository provides **ready-to-use incident response playbooks** for securi
 ##  What's Included
 
 ### 1️ Email Compromise (EC) Playbook
-**Location:** `bec-individual-email-compromise-playbook/`
+**Location:** `bec-email-compromise-playbook/`
 
 Handles incidents where a **single user's email account** is compromised.
 
