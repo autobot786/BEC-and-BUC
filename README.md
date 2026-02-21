@@ -97,7 +97,7 @@ Handles incidents involving **third-party vendor or supplier compromise** (Third
 
 ##  How to Use
 
-### For Individual Email Compromise:
+### For Email Compromise:
 
 1. Navigate to `bec-individual-email-compromise-playbook/notebooks/`
 2. Open `BEC_Individual_Email_Compromise_Playbook.ipynb`
